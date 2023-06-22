@@ -1,3 +1,4 @@
 # leetcode
-my leetcode 
-author: @Ziyodev
+* [My leetcode profile](https://leetcode.com/Ziyodullodev/)
+
+#### author: @Ziyodev
