@@ -32,3 +32,44 @@
 #         return str(num2)
 
 ################*******@Ziyodev*********######################
+
+#------------------- 344. Reverse String -----------------#
+# start | 23:11
+# end | 23:44
+
+# class Solution(object):
+#     def reverseString(self, s):
+        # """
+        # :type s: List[str]
+        # :rtype: None Do not return anything, modify s in-place instead.
+        # """
+#         sana = 0
+#         list_len = (len(s) / 2)
+#         if list_len %2 != 0:
+#             list_len - 1  
+#         while sana < list_len:
+#             head = s[sana]
+#             s[sana] = s[-1-sana]
+#             s[-1-sana] = head
+#             sana += 1
+#         return s
+        
+# s = ["s","a","l","o","m"]   
+# test = Solution()
+# answer = test.reverseString(s)
+# print(answer)
+
+######################### compact solution ##########################
+
+# class Solution(object):
+#     def reverseString(self, s):
+#         """
+#         :type s: List[str]
+#         :rtype: None Do not return anything, modify s in-place instead.
+#         """
+#         l=[]
+#         l.append(s.reverse())
+#         return l
+
+
+################*******@Ziyodev*********######################
