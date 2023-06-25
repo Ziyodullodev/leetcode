@@ -73,3 +73,29 @@
 
 
 ################*******@Ziyodev*********######################
+
+#---------------2744 .Find Maximum Number of String Pairs -----------------#
+# start | 23:44
+# end | 23:51
+
+
+# class Solution(object):
+#     def maximumNumberOfStringPairs(self, words):
+#         """
+#         :type words: List[str]
+#         :rtype: int
+#         """
+#         s = 0
+#         for i in range(len(words)):
+#             for j in range(i+1, len(words)):
+#                 if words[i] == words[j][::-1]:
+#                     s+=1
+#         return s
+    
+
+# words = ["cd","ac","dc","ca","zz"]
+
+# a = Solution()
+# print(a.maximumNumberOfStringPairs(words))
+
+################*******@Ziyodev*********######################
