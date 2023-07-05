@@ -144,3 +144,28 @@
 
 
 ################*******@Ziyodev*********######################
+#--------------- 500. Keyboard Row -----------------#
+# start | 16:45
+# end | 17:03
+
+# class Solution(object):
+#     def findWords(self, words):
+#         """
+#         :type words: List[str]
+#         :rtype: List[str]
+#         """
+#         result = []
+#         set1 = set("qwertyuiop")
+#         set2 = set("asdfghjkl")
+#         set3 = set("zxcvbnm")
+#         for word in words:
+#                 w = set(word.lower())
+#                 print(w <= set2)
+#                 if w <= set1 or w <= set2 or w <= set3:
+#                         result.append(word)
+#         return result
+
+        
+# words = ["Hello", "Alaska", "Dad", "Peace"]
+# a = Solution()
+# print(a.findWords(words))
