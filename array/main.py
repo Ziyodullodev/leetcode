@@ -28,3 +28,35 @@
 
 # a = Solution()
 # print(a.minSubArrayLen(target, nums))
+
+################*******@Ziyodev*********######################
+#--------------- 938. Range Sum of BST --------------#
+# start | 17:04
+# end | 17:13
+
+# class Solution(object):
+#     def rangeSumBST(self, root, low, high):
+#         """
+#         :type root: TreeNode
+#         :type low: int
+#         :type high: int
+#         :rtype: int
+#         """
+#         def calculate(root):
+#             if root:
+#                 if low <= root.val <= high:
+#                     self.res += root.val
+#                 if low < root.val:
+#                     calculate(root.left)
+#                 if high > root.val:
+#                     calculate(root.right)
+#         self.res = 0
+#         calculate(root)
+#         return self.res
+    
+# root = [10,5,15,3,7,18]
+# low = 7
+# high = 15
+
+# a = Solution()
+# print(a.rangeSumBST(root, low, high))
